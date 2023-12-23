@@ -11,3 +11,18 @@
   padding-right: 20px;
 }
 
+.listOfErrors li p {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
